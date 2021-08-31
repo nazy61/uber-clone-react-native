@@ -11,9 +11,9 @@ import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplet
 import { GOOGLE_MAPS_API_KEY } from "@env";
 import { useDispatch } from "react-redux";
 import { Icon } from "react-native-elements";
+import { useNavigation } from "@react-navigation/native";
 
 import { setDestination } from "../slices/navSlice";
-import { useNavigation } from "@react-navigation/native";
 import NavFavourites from "./NavFavourites";
 
 const NavigateCard = () => {
